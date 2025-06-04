@@ -5,4 +5,4 @@ int b;
 a = 10;
 b = a;
 Console.WriteLine("El valor de A es:" + a);
-Console.WriteLine("El valor de es b:" + b);
+Console.WriteLine("El valor de B es :" + b);
