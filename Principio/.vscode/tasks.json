@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/${workspaceFolderBasename}.csproj",
+                "${workspaceFolder}/Principio.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/${workspaceFolderBasename}.csproj",
+                "${workspaceFolder}/Principio.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/${workspaceFolderBasename}.csproj"
+                "${workspaceFolder}/Principio.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
